@@ -24,4 +24,5 @@ jobs:
           version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-eu-central-1-777385281279
           region: eu-central-1
+          use_existing_version_if_available: true
           deployment_package: deploy.zip
