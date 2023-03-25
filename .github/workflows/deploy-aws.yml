@@ -20,7 +20,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: Web-Demo
-          environment_name: Webdemo-env
+          environment_name: Web-Demo-env
           version_label: ${{ github.sha }}
           existing_bucket_name: elasticbeanstalk-eu-central-1-777385281279
           region: eu-central-1
